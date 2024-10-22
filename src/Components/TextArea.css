@@ -1,0 +1,10 @@
+@import "../styles/style.css";
+
+.textarea {
+  display: block;
+  max-width: 100%;
+  padding: 0.5rem;
+  border-color: var(--color-grey);
+  border-radius: 0.325rem;
+  resize: vertical;
+}

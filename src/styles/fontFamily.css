@@ -1,0 +1,9 @@
+@import "./colors.css";
+
+.font-bold {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: var(--color-black);
+}

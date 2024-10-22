@@ -1,0 +1,8 @@
+@import "../styles/style.css";
+
+.footer {
+  color: var(--color-yellow);
+  background-color: var(--color-black);
+  margin-top: 1rem;
+  padding: 1.5rem;
+}
