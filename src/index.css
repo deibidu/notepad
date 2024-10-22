@@ -43,8 +43,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  justify-content: start;
-  padding: 0 1.5rem;
+  justify-content: center;
 }
 
 .modal {

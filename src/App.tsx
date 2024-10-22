@@ -44,10 +44,10 @@ function App() {
 
   return (
     <>
-      <div className="container">
-        <div>
-          <h1>Notespad.</h1>
-        </div>
+      <div style={{ padding: "1rem" }}>
+        <h1>Notespad.</h1>
+      </div>
+      <div className="container d-flex-col">
         <div className="d-flex-wrap">
           <div className="container_saveNote">
             <div>
