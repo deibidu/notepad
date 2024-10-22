@@ -1,9 +1,4 @@
 .container {
+  height: 100vh;
   padding: 1rem;
-}
-
-@media (min-width: 1319px) {
-  .container {
-    height: 100vh;
-  }
 }
