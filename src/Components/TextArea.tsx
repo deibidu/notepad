@@ -11,7 +11,7 @@ export const TextArea = ({
   value,
   onChange,
   limit = 80,
-  placeholder = "Type some text here...",
+  placeholder = "Escribe algo aquí...",
 }: Props) => {
   return (
     <>
