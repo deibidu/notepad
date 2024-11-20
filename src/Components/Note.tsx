@@ -22,7 +22,7 @@ export const Note = ({ message, onDelete, onEdit }: Props) => {
       </div>
       <div>
         <button className="button-edit" type="button" onClick={onEdit}>
-          Edit
+          Editar
         </button>
       </div>
     </div>

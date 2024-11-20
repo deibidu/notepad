@@ -1,8 +1,18 @@
 @import "../styles/style.css";
 
 .footer {
-  color: var(--color-yellow);
-  background-color: var(--color-black);
+  position: sticky;
+  border-top: solid 1px;
+  border-color: var(--color-purple);
+  background-color: var(--color-white);
+  color: var(--color-black);
   margin-top: 1rem;
   padding: 1.5rem;
+  bottom: 0;
+}
+
+@media (max-width: 560px) {
+  .footer {
+    font-size: 14px;
+  }
 }

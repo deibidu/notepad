@@ -22,7 +22,7 @@ export const TextArea = ({
         value={value}
         onChange={(event) => onChange(event.target.value)}
       ></textarea>
-      <p className="">Characters left: {limit - value.length}</p>
+      <p className="">Caracteres restantes: {limit - value.length}</p>
     </>
   );
 };
