@@ -12,7 +12,7 @@ export const NoteDeleteModal = ({ onClose, onDelete }: Props) => {
       <div className="modal">
         <div className="modal_card">
           <section className="d-flex-col">
-            <p className="font-bold">Are you sure?</p>
+            <p className="font-bold">¿Estás segurx?</p>
           </section>
           <footer>
             <button
@@ -20,10 +20,10 @@ export const NoteDeleteModal = ({ onClose, onDelete }: Props) => {
               type="button"
               onClick={onDelete}
             >
-              Delete
+              Eliminar
             </button>
             <button className="button" type="button" onClick={onClose}>
-              Cancel
+              Cancelar
             </button>
           </footer>
         </div>

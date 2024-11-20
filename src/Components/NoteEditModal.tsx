@@ -35,7 +35,7 @@ export const NoteEditModal = ({ onClose, note, setNotes }: Props) => {
         <form onSubmit={onSubmit} className="">
           <div className="modal_card">
             <header>
-              <p>Edit note</p>
+              <p>Editar nota</p>
             </header>
             <section>
               <TextArea value={message} onChange={onMessageChange} />
@@ -47,10 +47,10 @@ export const NoteEditModal = ({ onClose, note, setNotes }: Props) => {
                 type="submit"
                 disabled={!message.trim()}
               >
-                Save changes
+                Guardar cambios
               </button>
               <button className="button" type="button" onClick={onClose}>
-                Cancel
+                Cancelar
               </button>
             </footer>
           </div>

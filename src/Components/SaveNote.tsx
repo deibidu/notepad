@@ -37,7 +37,7 @@ export const SaveNote = ({ setNotes, saveCallback }: Props) => {
           className="button"
           disabled={message.trim() === ""}
         >
-          Save
+          Guardar
         </button>
       </form>
     </>
